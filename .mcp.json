@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "webz": {
+      "type": "http",
+      "url": "https://mcp.webz.io/mcp"
+    }
+  }
+}

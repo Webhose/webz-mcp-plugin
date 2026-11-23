@@ -1,0 +1,10 @@
+{
+  "name": "webz-io",
+  "version": "1.0.0",
+  "description": "Webz.io Dark Web exposure monitoring for your domains and Open Web search of news, blogs and forums, with your Webz.io account.",
+  "mcpServers": {
+    "webz": {
+      "httpUrl": "https://mcp.webz.io/mcp"
+    }
+  }
+}
