@@ -11,5 +11,6 @@
   "repository": "https://github.com/Webhose/webz-mcp-plugin",
   "license": "MIT",
   "keywords": ["data breaches", "threat intelligence", "infostealer", "news", "web data", "security"],
-  "logo": "assets/logo.png"
+  "logo": "assets/logo.png",
+  "mcpServers": "./.mcp.json"
 }
