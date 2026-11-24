@@ -1,8 +1,8 @@
 {
   "name": "webz-io",
   "displayName": "Webz.io",
-  "version": "1.0.0",
-  "description": "Webz.io Dark Web exposure monitoring for your domains and Open Web search of news, blogs and forums, with your Webz.io account.",
+  "version": "1.1.0",
+  "description": "Webz.io Dark Web exposure monitoring and threat intelligence answers, and Open Web search of news, blogs and forums, with your Webz.io account.",
   "author": {
     "name": "Webz.io",
     "url": "https://webz.io"

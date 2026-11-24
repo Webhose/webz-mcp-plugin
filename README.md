@@ -3,7 +3,8 @@
 Connects ChatGPT, Codex, Cursor and other MCP clients to Webz.io through one MCP server, `https://mcp.webz.io/mcp`:
 
 - **Dark Web**: check whether accounts, session cookies and API keys or tokens of a domain your Webz.io account is
-  authorized to monitor appear in data breaches or infostealer logs; look up known breaches by name.
+  authorized to monitor appear in data breaches or infostealer logs; look up known breaches by name; get direct answers
+  to threat intelligence questions, with citations from dark web content.
 - **Open Web**: search Webz.io's news, blog and forum archives with filters for site, language, country and date; count
   coverage by site, author, person or company; get written answers from the news.
 
@@ -15,8 +16,7 @@ Connects ChatGPT, Codex, Cursor and other MCP clients to Webz.io through one MCP
    - Kiro: **Powers → Add Custom Power → Import power from GitHub** with this repository's URL
 2. Sign in with your Webz.io API token when asked. No token? Get one at [webz.io](https://webz.io).
 
-Each product is available as your Webz.io plan allows. Breach searches cover the last 365 days, only for domains your
-account is authorized for, and cost one search credit each.
+Breach searches cover the last 365 days, only for domains your account is authorized for.
 
 All tools are read-only. More: [mcp.webz.io](https://mcp.webz.io).
 
