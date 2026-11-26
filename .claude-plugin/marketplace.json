@@ -1,0 +1,17 @@
+{
+  "name": "webz-io",
+  "owner": {
+    "name": "Webz.io",
+    "email": "support@webz.io"
+  },
+  "metadata": {
+    "description": "The Webz.io plugin: Dark Web exposure monitoring and Open Web search of news, blogs and forums."
+  },
+  "plugins": [
+    {
+      "name": "webz-io",
+      "source": "./",
+      "description": "Webz.io Dark Web exposure monitoring and threat intelligence answers, and Open Web search of news, blogs and forums, with your Webz.io account."
+    }
+  ]
+}
