@@ -14,7 +14,7 @@ Connects ChatGPT, Codex, Cursor and other MCP clients to Webz.io through one MCP
    - Grok Build: `grok plugin install Webhose/webz-mcp-plugin --trust`, then `grok plugin enable webz-io`
    - Gemini CLI: `gemini extensions install https://github.com/Webhose/webz-mcp-plugin`
    - Kiro: **Powers → Add Custom Power → Import power from GitHub** with this repository's URL
-   - Claude Code: `/plugin install webz-io --marketplace Webhose/webz-mcp-plugin`
+   - Claude Code: `claude plugin install webz-io --marketplace Webhose/webz-mcp-plugin`
 2. Sign in with your Webz.io API token when asked. No token? Get one at [webz.io](https://webz.io).
 
 Breach searches cover the last 365 days, only for domains your account is authorized for.

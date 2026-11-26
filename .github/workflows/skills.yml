@@ -29,6 +29,7 @@ jobs:
         run: test "$(jq -r .version plugin.json .cursor-plugin/plugin.json .claude-plugin/plugin.json .grok-plugin/plugin.json gemini-extension.json | sort -u | wc -l)" = 1
 
   # Opens a pull request that pins a new skills release and raises the plugin's patch version, so clients see an update.
+  # A release that changes none of the skills this plugin carries opens nothing: the pin stays where it is.
   # ponytail: checks do not start on a pull request opened with the workflow token; the content comes from the same script
   # the check runs. Merging stays manual, because marketplaces review every plugin update.
   bump:
@@ -45,7 +46,7 @@ jobs:
       - run: scripts/sync-skills.sh "$TAG"
       - name: Open the pull request
         run: |
-          if [ -z "$(git status --porcelain -- skills SKILLS_VERSION)" ]; then echo "Already on $TAG"; exit 0; fi
+          if [ -z "$(git status --porcelain -- skills)" ]; then echo "$TAG changes no skill of this plugin"; exit 0; fi
           old="$(jq -r .version plugin.json)"
           new="${old%.*}.$(( ${old##*.} + 1 ))"
           sed -i "s/\"version\": \"$old\"/\"version\": \"$new\"/" plugin.json .cursor-plugin/plugin.json .claude-plugin/plugin.json .grok-plugin/plugin.json gemini-extension.json
