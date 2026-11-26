@@ -1,0 +1,14 @@
+{
+  "name": "webz-io",
+  "version": "1.2.0",
+  "description": "Webz.io Dark Web exposure monitoring and threat intelligence answers, and Open Web search of news, blogs and forums, with your Webz.io account.",
+  "author": {
+    "name": "Webz.io",
+    "url": "https://webz.io"
+  },
+  "homepage": "https://mcp.webz.io",
+  "repository": "https://github.com/Webhose/webz-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["data breaches", "threat intelligence", "infostealer", "news", "web data", "security"],
+  "privacyPolicyUrl": "https://webz.io/privacy/"
+}
